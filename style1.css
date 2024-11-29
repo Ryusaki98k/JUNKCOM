@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.carousel-item {
+    height: 500px;
+}
+.carousel-image-1 {
+    background-image: url("https://images.pexels.com/photos/27831786/pexels-photo-27831786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+} 
+.carousel-image-2 {
+    background-image: url("https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.carousel-image-3 {
+    background-image: url("https://images.pexels.com/photos/1038916/pexels-photo-1038916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+
+section.footer {
+    font-size: 1rem;
+    text-align: center;
+    padding: 3rem;
+    color: rgb(255, 255, 255);
+    background-color: #1E201E;
+}
+.logo{
+    font-size: 3rem;
+    color:rgb(236, 223, 204)
+}
+body {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%233c3d37' fill-opacity='0.16' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+

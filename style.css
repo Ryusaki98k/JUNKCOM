@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@media screen and (min-width: 576px) {
+    .dropdown-menu {
+        display: block;
+        opacity: 0;
+        transition: all 0.6s;
+        width: 40vw;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+
+*{
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;   
+}
+.nav-list{
+    list-style: none;
+    margin: 0 1rem;
+}
+li a{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+img{
+    width: 25%;
+
+}
+
+p{
+    font-size: 4rem;
+    line-height: 4rem;
+}
+section{
+    padding: 2.5rem 0;
+}
+.box{
+    border: 2 solid rgb(53, 53, 53);
+    padding: 1.5rem;
+    margin-top: 3rem;
+    border-radius: 20px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex>*{
+    margin: 3px;
+}
+section.header{
+    width: 100%;
+    height: 60vh;
+    background: url("https://images.pexels.com/photos/1038916/pexels-photo-1038916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat;
+    background-size: cover;    
+}
+p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.carousel-item {
+    height: 500px;
+}
+.carousel-image-1 {
+    background-image: url("https://images.pexels.com/photos/27831786/pexels-photo-27831786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+} 
+.carousel-image-2 {
+    background-image: url("https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.carousel-image-3 {
+    background-image: url("https://images.pexels.com/photos/1038916/pexels-photo-1038916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+
+body {
+    background-color: #202129;
+}
+
+section.footer {
+    font-size: 1rem;
+    text-align: start;
+    padding: 10rem;
+    margin: 0%;
+    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+}
+ 
+  
+.product-device {
+    position: absolute;
+    right: 0%;
+    bottom: -1%;
+    width: 910px;
+    height: 600px;
+    background-color: #ffffff;
+    background-image: url("https://images.pexels.com/photos/27831786/pexels-photo-27831786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    border-radius: 0px;
+    transform: rotate(0deg);
+}
+
+.product-device-1 {
+    top: -15%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+    background-image: url("https://images.pexels.com/photos/2225617/pexels-photo-2225617.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+ 
+  
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+    background-image: url("https://images.pexels.com/photos/8622911/pexels-photo-8622911.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+.product-device-3 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+    background-image: url("https://images.pexels.com/photos/2582930/pexels-photo-2582930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.product-device-4 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+    background-image: url("https://images.pexels.com/photos/3921839/pexels-photo-3921839.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.product-device-5 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+    background-image: url("https://images.pexels.com/photos/65543/pexels-photo-65543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.product-device-6 {
+    top: 25%;
+    right: auto;
+    bottom: 0;
+    left: 10%;
+    background-color: #e5e5e5;
+    background-image: url("https://images.pexels.com/photos/27831786/pexels-photo-27831786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+  
+.flex-equal > * {
+    flex: 1;
+}
+ @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+}
+  
+.navbar-brand{
+    margin-left: 0;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;   
+}
+.nav-list{
+    list-style: none;
+    margin: 0 1rem;
+}
+li a{
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.Logo {
+    transform: scale(400%);
+    margin: 0;
+}
+
+.wrapper {
+    height: 35vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: start;
+  }
+  .text-font { 
+    
+    font-family: monospace;
+    font-size: 2em;
+  }
+
+  .typing {
+    width: 8ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+
+  .typing-1 {
+    width: 49ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+
+  a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-products {
+    padding: 80px 0 54px;
+}
+
+.section-products .header {
+    margin-bottom: 50px;
+}
+
+.section-products .header h3 {
+    font-size: 1rem;
+    color: #646464;
+    font-weight: 500;
+}
+
+.section-products .header h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #444444; 
+}
+
+.section-products .single-product {
+    margin-bottom: 26px;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-products .single-product .part-1 {
+    position: relative;
+    height: 300px; /* ปรับขนาดของกรอบรูป */
+    max-height: 300px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 15px; /* เพิ่มความโค้งมน */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* เงารอบกรอบรูป */
+}
+
+.section-products .single-product .part-1::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.3s;
+}
+
+.section-products .single-product:hover .part-1::before {
+    transform: scale(1.2,1.2) rotate(5deg); /* ขยายและหมุน */
+}
+
+.section-products .single-product #product-2 .part-1::before {
+    background: url("https://th.aorus.com/upload/Product/F_20201230135856TD1880.JPG") no-repeat center;
+    background-size: cover;
+}
+
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #ffffff;
+    background-color: #ff6868;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    border-radius: 3px; /* ปรับให้ขอบมน */
+}
+
+.section-products .single-product .part-1 .new {
+    left: 0;
+    background-color: #444444;
+}
+
+.section-products .single-product .part-1 ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.section-products .single-product:hover .part-1 ul {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.section-products .single-product .part-1 ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.section-products .single-product .part-1 ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #242424;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 2px 20px rgba(255, 255, 255, 0.1);
+    transition: color 0.2s;
+    border-radius: 50%; /* ปรับให้ปุ่มเป็นวงกลม */
+}
+
+.section-products .single-product .part-1 ul li a:hover {
+    color: #616161;
+}
+
+.section-products .single-product .part-2 {
+    text-align: start;
+    transition: transform 0.3s ease;
+    padding: 15px; /* เพิ่มการเว้นระยะห่าง */
+}
+
+.single-product:hover .part-2 {
+    transform: translateY(-10px);
+}
+
+.section-products .single-product .part-2 .product-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+}
+
+.section-products .single-product .part-2 h4 {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #181818; /* สีเขียว */
+}
+
+.section-products .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    transform: translateY(-50%);
+}
+
+.section-products #product-2 .part-1 {
+    background-image: url('https://th.aorus.com/upload/Product/F_20201230135856TD1880.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 200px; 
+    border-radius: 12px;
+    width: 100%;
+}
+
+/* ทำให้รูปภาพขยับตอน Hover */
+.part-1 {
+    overflow: hidden;
+    position: relative;
+}
+
+.part-1 img {
+    transition: transform 0.5s ease;
+}
+
+.part-1:hover img {
+    transform: scale(1.1) rotate(3deg);
+}
+
+/* เอฟเฟกต์ขยับตัวอักษร */
+.part-2 {
+    border: 0px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.part-2:hover {
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+}
+
+.product-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #85A98F;
+}
+.card {
+    width: 444px;
+  }
+
+
+
+
+  .profiles {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+  }
+  
+  .profile {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    width: 45%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .profile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .profile h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+  
+  .profile p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .modal-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .modal-body {
+    padding: 0;
+  }
+  .btn-close {
+    position: absolute;
+    right: 0;
+    padding: 1em;
+  }
+
+  

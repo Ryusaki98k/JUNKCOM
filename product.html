@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>junkCOM</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="product.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top sticky-top py-2 " style="background-color: #ffffff;">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img class="Logo" src="img/logo.svg" alt="" width="30" height="40">
+      </a>
+      <button
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbar1"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div id="navbar1" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto flex-grow-1 pe-2">
+          <li class="nav-item mx-2">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item dropdown mx-2">
+            <a href="product.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Product</a>
+            <div class="dropdown-menu p-2 border-0 shadow-sm rounded-5">
+              <div class="row">
+                <div class="col-sm-6">
+                  <a href="product.html" class="text-dark text-decoration-none">
+                    <div class="d-flex p-2 align-items-center">
+                      <div class="icon fs-1 px-3 bg-secondary-subtle rounded-3">
+                        <i class="bi bi-tv"></i>
+                      </div>
+                      <div class="text px-3">
+                        <h5>monitor</h5>
+                        <div class="fs-6">monitor </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-6">
+                  <a href="product1.html" class="text-dark text-decoration-none">
+                    <div class="d-flex p-2 align-items-center">
+                      <div class="icon fs-1 px-3 bg-secondary-subtle rounded-3">
+                        <i class="bi bi-gpu-card"></i>
+                      </div>
+                      <div class="text px-3">
+                        <h5>gpu</h5>
+                        <div class="fs-6">Performance that transforms every display</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-6">
+                  <a href="product2.html" class="text-dark text-decoration-none">
+                    <div class="d-flex p-2 align-items-center">
+                      <div class="icon fs-1 px-3 bg-secondary-subtle rounded-3">
+                        <i class="bi bi-cpu"></i>
+                      </div>
+                      <div class="text px-3">
+                        <h5>cpu</h5>
+                        <div class="fs-6">premium CPUs</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-sm-6">
+                  <a href="product3.html" class="text-dark text-decoration-none">
+                    <div class="d-flex p-2 align-items-center">
+                      <div class="icon fs-1 px-3 bg-secondary-subtle rounded-3">
+                        <i class="bi bi-headphones"></i>
+                      </div>
+                      <div class="text px-3">
+                        <h5>headphones</h5>
+                        <div class="fs-6">wired and wireless</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class=" col-sm-6">
+                  <a href="product4.html" class="text-dark text-decoration-none">
+                    <div class="d-flex p-2 align-items-center">
+                      <div class="icon fs-1 px-3 bg-secondary-subtle rounded-3">
+                        <i class="bi bi-mouse"></i>
+                      </div>
+                      <div class="text px-3">
+                        <h5>mouse</h5>
+                        <div class="fs-6">wireless mouse</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class=" col-sm-6">
+                  <a href="product5.html" class="text-dark text-decoration-none">
+                    <div class="d-flex p-2 align-items-center">
+                      <div class="icon fs-1 px-3 bg-secondary-subtle rounded-3">
+                        <i class="bi bi-motherboard"></i>
+                      </div>
+                      <div class="text px-3">
+                        <h5>other</h5>
+                        <div class="fs-6">All product</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item mx-2">
+            <a href="about.html" class="nav-link ">About</a>
+          </li>
+
+        </ul>
+        <div class="d-flex justify-content-center align-items-center gap-3 mx-2">
+          <a href="login.html" class="nav-link text-start ">Login</a>
+          <a href="register.html" class="nav-link text-white bg-dark rounded-4 text-decoration-none px-3 py-1">Register</a>
+        </div>
+
+    </div>
+    <br>
+  </nav>
+    
+    
+    <!-- สไลด์โชว์ (Carousel) -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner rounded-4  justify-content-center shadow-lg">
+            <div class="carousel-item active">
+                <img src="https://th.aorus.com/upload/Product/F_20201230135856TD1880.JPG" class="d-block w-100" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://th.aorus.com/upload/Product/F_20201230135856TD1880.JPG" class="d-block w-100" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://th.aorus.com/upload/Product/F_20201230135856TD1880.JPG" class="d-block w-100" alt="Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="https://th.aorus.com/upload/Product/F_20201230135856TD1880.JPG" class="d-block w-100" alt="Image 4">
+            </div>
+        </div>
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</body>
+
+    <section class="section-products">
+        <div class="container">
+                <div class="row justify-content-center text-center">
+                        <div class="col-md-8 col-lg-6">
+                                <div class="header">
+                                        <h3>Featured Product</h3>
+                                        <h2>Popular Products</h2>
+                                </div>
+                        </div>
+                </div>
+                <div class="row">
+                        <!-- Single Product -->
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div id="product-2" class="single-product">
+                                <div class="part-1 rounded-4 bg-light position-relative">
+                                    <img src="https://th.aorus.com/upload/Product/F_20201230135856TD1880.JPG" alt="Product" class="img-fluid w-100 h-100 rounded-4 img-animate">
+                                    <span class="discount position-absolute">15% off</span>
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="part-2">
+                                    <h3 class="product-title">Here Product Title</h3>
+                                    <h4 class="product-price">$49.99</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Product -->
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div id="product-2" class="single-product">
+                                        <div class="part-1">
+                                                <span class="discount">15% off</span>
+                                                <ul>
+                                                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                                        <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                                        <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                                </ul>
+                                        </div>
+                                        <div class="part-2">
+                                                <h3 class="product-title">Here Product Title</h3>
+                                                <h4 class="product-price">$49.99</h4>
+                                        </div>
+                                </div>
+                        </div>
+                        <!-- Single Product -->
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div id="product-2" class="single-product">
+                                <div class="part-1 rounded-4 bg-light position-relative">
+                                    <img src="https://th.aorus.com/upload/Product/F_20201230135856TD1880.JPG" alt="Product" class="img-fluid w-100 h-100 rounded-4 img-animate">
+                                    <span class="discount position-absolute">15% off</span>
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="part-2">
+                                    <h3 class="product-title">Here Product Title</h3>
+                                    <h4 class="product-price">฿49.99</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Product -->
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div id="product-2" class="single-product">
+                                <div class="part-1 rounded-4 bg-light position-relative">
+                                    <img src="https://th.aorus.com/upload/Product/F_20201230135856TD1880.JPG" alt="Product" class="img-fluid w-100 h-100 rounded-4 img-animate">
+                                    <span class="discount position-absolute">15% off</span>
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="part-2">
+                                    <h3 class="product-title">Here Product Title</h3>
+                                    <h4 class="product-price">฿49.99</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Product -->
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div id="product-2" class="single-product">
+                                <div class="part-1 rounded-4 bg-light position-relative">
+                                    <img src="https://th.aorus.com/upload/Product/F_20201230135856TD1880.JPG" alt="Product" class="img-fluid w-100 h-100 rounded-4 img-animate">
+                                    <span class="discount position-absolute">15% off</span>
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="part-2">
+                                    <h3 class="product-title">Here Product Title</h3>
+                                    <h4 class="product-price">฿49.99</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Product -->
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div id="product-2" class="single-product">
+                                <div class="part-1 rounded-4 bg-light position-relative">
+                                    <img src="https://th.aorus.com/upload/Product/F_20201230135856TD1880.JPG" alt="Product" class="img-fluid w-100 h-100 rounded-4 img-animate">
+                                    <span class="discount position-absolute">15% off</span>
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="part-2">
+                                    <h3 class="product-title">Here Product Title</h3>
+                                    <h4 class="product-price">฿49.99</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Product -->
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div id="product-2" class="single-product">
+                                <div class="part-1 rounded-4 bg-light position-relative">
+                                    <img src="https://th.aorus.com/upload/Product/F_20201230135856TD1880.JPG" alt="Product" class="img-fluid w-100 h-100 rounded-4 img-animate">
+                                    <span class="discount position-absolute">15% off</span>
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="part-2">
+                                    <h3 class="product-title">Here Product Title</h3>
+                                    <h4 class="product-price">฿49.99</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Product -->
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div id="product-2" class="single-product">
+                                <div class="part-1 rounded-4 bg-light position-relative">
+                                    <img src="https://th.aorus.com/upload/Product/F_20201230135856TD1880.JPG" alt="Product" class="img-fluid w-100 h-100 rounded-4 img-animate">
+                                    <span class="discount position-absolute">15% off</span>
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="part-2">
+                                    <h3 class="product-title">Here Product Title</h3>
+                                    <h4 class="product-price">฿49.99</h4>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+        
+</section>
+</body>
+</body>
+</html>
